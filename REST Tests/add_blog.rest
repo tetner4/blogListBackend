@@ -1,9 +1,11 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ
 
 {
     "title": "COP 2021",
     "author": "Billy Joel",
     "url": "www.cop21.com",
-    "likes": 5452
+    "likes": 5452,
+    "id": 123
 }
